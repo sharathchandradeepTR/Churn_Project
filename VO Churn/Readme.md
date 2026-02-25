@@ -1,7 +1,7 @@
-# Virtual Office (VO) Customer Churn Prediction 
+# Virtual Office (VO) Customer Churn Prediction - Phase 2
 
 ## 📌 Project Overview
-This repository contains the data pipeline and machine learning model for predicting customer churn for Virtual Office (VOSET) and Software as a Service (SaaS) products. 
+This repository contains the Phase 2 data pipeline and machine learning model for predicting customer churn for Virtual Office (VOSET) and Software as a Service (SaaS) products. 
 
 The project extracts historical subscription, support ticket, call, and web activity data from two distinct enterprise databases (**Snowflake** and **EMS SQL Server**). It then processes this data, engineers relevant features, and trains an **XGBoost Classifier** optimized via **Bayesian Search** to predict the likelihood of an active firm canceling its subscription.
 
